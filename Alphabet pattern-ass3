@@ -1,0 +1,16 @@
+// PROGRAM TO PRINT PATTERN OF ALPHABETS//
+#include<stdio.h>
+main()
+{
+	int i,n;
+	char ch;
+	for(n=1;n<=26;n++)
+	{
+		for(i=1;i<=n;i++)
+		{
+		printf("%c ",i+64);
+		}
+		printf("\n");
+ }
+	
+}
